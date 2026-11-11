@@ -716,11 +716,11 @@ else:
             column_config={
                 "Precio inicial":
                     st.column_config.NumberColumn(
-                        format="%.4f"
+                        format="%.0f"
                     ),
                 "Precio final":
                     st.column_config.NumberColumn(
-                        format="%.4f"
+                        format="%.0f"
                     ),
                 "Variación (%)":
                     st.column_config.NumberColumn(
